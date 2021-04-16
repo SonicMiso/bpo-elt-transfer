@@ -1,0 +1,32 @@
+{
+  "name": "bpo-elt-transfer",
+  "version": "2.0.2",
+  "author": "CH",
+  "description": "elementui表格穿梭框，基于elt-transfer的自用定制。",
+  "main": "src/index.js",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "element-ui",
+    "table",
+    "el",
+    "elt",
+    "pagination",
+    "transfer"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name eltabletransfer --dest lib src/index.js"
+  },
+  "dependencies": {
+    "element-ui": "^2.11.1",
+    "vue": "^2.6.10",
+    "lodash": ">=4.17.19"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
