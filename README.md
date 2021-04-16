@@ -1,7 +1,8 @@
 # bpo-elt-transfer
 基于elt-transfer的自用定制, 拆了部分封装，和无用方法，提升了扩展性。
 更改了props 和表格的列定义方式，使其更贴合原生el-transfer 和el-table 的使用。提高了客制化能力，并且使用方式更符合直觉。
-
+## Overview
+![avatar](example/example.png)
 ## 安装
 `npm install bpo-elt-transfer`
 
